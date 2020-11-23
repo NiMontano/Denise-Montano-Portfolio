@@ -51,7 +51,7 @@ body {
 
 }
 
-.intro, .about-me {
+.intro, .about-me, .faqs {
   display: inline-block;
   box-sizing: border-box;
   width: 48%;
