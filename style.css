@@ -10,7 +10,7 @@ header, footer {
   background-color: #e5989b;
   border: 5px solid #b5838d;
   border-radius: 25px;
-  font-size: 10px;
+  font-size: 100%;
 }
 
 header {
@@ -43,24 +43,31 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;}
 
+ul {
+  list-style-type: none;
+}
+  
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .box {
   border: 10px solid #b5838d;
   border-radius: 25px;
   background-color: #ffb4a2;
   padding: 8px;
 
+  }
+
+.about-me, .faqs {
+  width: 40%;
+  margin: 1%;
 }
 
-.intro, .about-me, .faqs {
-  display: inline-block;
-  box-sizing: border-box;
-  width: 48%;
-  height: 455px;
-  margin: 5px;
-}
-
-.about-me {
-  float: right;
+.intro, .projects {
+  width: 100%;
 }
 
 footer {
